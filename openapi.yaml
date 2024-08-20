@@ -1,0 +1,19 @@
+openapi: 3.1.0
+info:
+  title: STD23021
+  version: 1.0.0
+servers:
+  - url: https://localhost.STD23021.com
+
+paths:
+  /customers:
+    get:
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "components.yaml/components/schemas/Customer"

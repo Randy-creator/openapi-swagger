@@ -1,9 +1,0 @@
-components:
-  schemas:
-    Customer:
-      type: object
-      properties:
-        home:
-          type: string
-        age:
-          type: string
